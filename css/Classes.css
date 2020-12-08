@@ -1,0 +1,48 @@
+/* Margin and position */
+
+.class-card { position: relative; margin-bottom: 1rem !important;
+}
+
+
+/* Rounded corners */
+.class-card img { border-top-left-radius: .5rem !important;}
+.class-card img { border-top-right-radius: .5rem !important;}
+
+.class-card > div {
+    border-bottom-left-radius: .5rem !important;
+    border-bottom-right-radius: .5rem !important;
+}
+
+/* Date */
+.class-card .date{
+    position: absolute;
+    top: 10px ;
+    left: 10px ;
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: .5rem;
+    box-shadow: .15rem .15rem 0 rgba(0,0,0,0.2);
+ }
+
+
+
+/* Card orientation */
+@media (min-width: 576px) and ( orientation: portrait), (min-width: 576px) and ( orientation: landscape){
+    .class-card {flex-direction: row!important;}
+    .class-card img {
+        border-top-left-radius: .5rem !important;
+        border-bottom-left-radius: .5rem !important;
+        border-top-right-radius: 0rem !important;
+        width: 360px !important; 
+
+    }
+
+        .class-card >  div:first-of-type  {
+            border-bottom-left-radius: 0rem !important;
+            border-bottom-right-radius: .5rem !important;
+            border-top-right-radius: .5rem !important;
+            width: 250px !important;}
+}
+@media (min-width: 1366px), ( orientation: landscape){
+    .class-card {margin-right: 1rem !important;}
+}

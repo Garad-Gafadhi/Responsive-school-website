@@ -1,0 +1,16 @@
+.max-width {
+    max-width: 120px !important;
+}
+nav img {width: 130px; }
+
+.rounded-100 {border-radius: 100% !important;}
+
+.btn-badge {
+    padding: 0.35rem 0.5rem;
+    top: -15px !important;
+    right: -15px !important;
+}
+.nav-icon {
+    width: 35px;
+    line-height: 35px;
+}

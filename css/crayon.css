@@ -1,0 +1,28 @@
+.crayon{
+    --crayon-height:0.85rem;   
+    --crayon-widht: 4rem;
+    --crayon-color:#237449;
+    --crayon-paper-color: rgba(41,237, 133, 0.6);
+    --crayon-shadow-color: rgba(0,0,0,0.3);
+    --crayon-line-color:#237449;
+
+    width: var(--crayon-widht);
+    height: var(--crayon-height);
+
+    /* background-color */
+    background: var(--crayon-color);
+    box-shadow: 2px 2px 3px var(--crayon-shadow-color);
+
+    background-image: 
+    linear-gradient(to bottom, transparent 62%, var(--crayon-shadow-color) 100%),
+    radial-gradient(ellipse at top, var(--crayon-line-color)24%, transparent 24%),
+    
+    linear-gradient(to right, transparent 14%, var( --crayon-line-color)14%, var(--crayon-line-color)17%, transparent 17%),
+
+    linear-gradient(to right, transparent 20%, var( --crayon-line-color)20%, var(--crayon-line-color)23%, transparent 23%),
+    linear-gradient(to right, transparent 78%, var( --crayon-line-color)78%, var(--crayon-line-color)81%, transparent 81%),
+    linear-gradient(to right, transparent 84%, var( --crayon-line-color)84%, var(--crayon-line-color)87%, transparent 87%),
+    linear-gradient(to right, transparent 8%, var( --crayon-paper-color)8%, var(--crayon-paper-color)92%, transparent 92%);
+
+
+}

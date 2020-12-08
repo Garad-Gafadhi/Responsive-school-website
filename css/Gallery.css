@@ -1,0 +1,12 @@
+#gallery img {width: 96% !important;}
+
+
+@media (min-width: 576px) {
+    #gallery img {width: 47% !important;}
+    .image-container {flex-direction: row !important; }
+}
+
+@media (min-width: 1024px) 
+{#gallery img {width: 23% !important;}
+
+}

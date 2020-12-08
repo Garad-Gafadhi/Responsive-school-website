@@ -1,0 +1,23 @@
+
+body{
+    color: #212529;
+    margin: 0;
+    font-weight: 400;
+    background-color: #fff;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/* col */
+.col {flex-basis: 0; flex-grow: 1; max-width: 100%;}
+.d-none {display: none !important;}
+
+/* flex */
+.d-flex {display: flex !important;}
+.flex-row {flex-direction: row !important};
+.flex-row {flex-direction: column !important;}
+
+@media (min-width: 768px){
+    .d-md-none {display: none !important;}
+.d-md-block {display: block !important;}
+}

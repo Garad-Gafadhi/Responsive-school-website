@@ -1,0 +1,32 @@
+.circle-lg {
+    width: 76px;
+    height: 76px;
+    padding: 0.375rem ;
+    box-shadow: 0.25rem 0.25rem 0 rgba(0,0,0,0.1) ;
+    border-radius: 50%;
+}
+
+/* Inner circle */
+.border-2 {border-style: solid; border-width: 2px;}
+.border-lg {width: 62px; height: 62px;}
+
+/* Icon size */
+.icon-lg {font-size: 1.38rem;}
+.icon-lg-lh {line-height: 62px;}
+
+/* Screen size */
+@media (min-width: 576px) {
+    #feature-list {width: 80% !important;}
+}
+@media (min-width: 1024px) {
+    #feature-list{ width: 95% !important;}
+    #feature-list > div {flex-direction: row !important;}
+    #feature-list > div > :nth-child(1),
+    #feature-list > div > :nth-child(2) {margin-right: 1.75rem !important;}
+}
+@media (min-width: 1440px) {
+    #feature-list{width: 1440px !important;}
+    #feature-list > div {margin-bottom: 1.75rem !important;}
+    #feature-list > div > :nth-child(1),
+    #feature-list > div > :nth-child(2) {margin-right: 3rem !important;}
+}

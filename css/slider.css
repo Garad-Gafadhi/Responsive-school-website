@@ -1,0 +1,16 @@
+.slider-image-1 {background-image: url('../images/Slider/img-1.jpg');}
+.slider-image-2 {background-image: url('../images/Slider/img-2.jpg');}
+.slider-image-3 {background-image: url('../images/Slider/img-3.jpg');}
+.slider-image-4 {background-image: url('../images/Slider/img-4.jpg');}
+
+.slider{height: 300px;}
+.slider-img{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.slider-fade{animation: 5s infinite;}@keyframes fading{25%{opacity: 0;}50%{opacity: 1;}25%{opacity: 0;}}
+@media (min-width: 1200px){
+    .slider {height: 550px;}
+}

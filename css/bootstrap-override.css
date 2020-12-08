@@ -1,0 +1,55 @@
+body{font-family: "Open sans", sans-serif!important;}
+/* Background */
+.bg-primary{background-color: #7a72df!important;}
+.bg-secondary{background-color: #6c757d!important;}
+.bg-success{background-color: #b5d56a!important;}
+.bg-danger{background-color: #c54242 !important;}
+.bg-warning{background-color: #f3b61c!important;}
+.bg-info{background-color: #a597e7!important;}
+.bg-light{background-color: #f8f9fa!important;}
+.bg-dark{background-color: #343a40!important;}
+.bg-white{background-color: #fff!important;}
+.bg-transparent{background-color:transparent!important;}
+
+
+/* Test colors */
+.text-primary{color: #7a72df!important;}
+.text-secondary{color: #6c757d!important;}
+.text-success{color: #b5d56a!important;}
+.text-danger{color: #c54242 !important;}
+.text-warning{color: #f0c24b!important;}
+.text-info{color: #a597e7!important;}
+.text-light{color: #f8f9fa!important;}
+.text-dark{color: #343a40!important;}
+.text-white{color: #fff!important;}
+.text-cozy{color:#f0348c!important;}
+
+
+
+
+/* buttons */
+.btn-primary{background-color: #7a72df!important;}
+.btn-secondary{background-color: #6c757d!important;}
+.btn-success{background-color: #b5d56a!important;}
+.btn-danger{background-color: #c54242 !important;}
+.btn-warning{background-color: #f0c24b!important;}
+.btn-info{background-color: #a597e7!important;}
+.btn-light{background-color: #f8f9fa!important;}
+.btn-dark{background-color: #343a40!important;}
+.btn-white{background-color: #fff!important;}
+.btn-cozy{background-color:#f0348c!important;}
+
+
+/* borders */
+.border-primary{border-color: #7a72df!important;}
+.border-secondary{border-color: #6c757d!important;}
+.border-success{border-color: #b5d56a!important;}
+.border-danger{border-color: #c54242 !important;}
+.border-warning{border-color: #f0c24b!important;}
+.border-info{border-color: #a597e7!important;}
+.border-light{border-color: #f8f9fa!important;}
+.border-dark{border-color: #343a40!important;}
+.border-white{border-color: #fff!important;}
+.border-cozy{border-color:#ea77ad!important;}
+
+.shadow { box-shadow: 0.3rem 0.3rem 0 #7a7c7e3b !important; }

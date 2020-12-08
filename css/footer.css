@@ -1,0 +1,16 @@
+footer img {
+    max-width: 200px !important;
+}
+
+footer form i {right: 20px; top: 10px;}
+
+footer form textarea {min-height: 5rem;}
+
+#footer form, footer > div > div {max-width: 550px;}
+
+footer form {width:  -webkit-fill-available ;}
+
+@media (min-width: 1024px) {
+    #footer form{ margin-top: 0rem !important;}
+    footer > div > div {margin-right: 2rem;}
+}

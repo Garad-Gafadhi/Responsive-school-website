@@ -1,9 +1,10 @@
 .max-width {
-    max-width: 120px !important;
+    max-width: 1920px !important;
 }
 nav img {width: 130px; }
 
 .rounded-100 {border-radius: 100% !important;}
+
 
 .btn-badge {
     padding: 0.35rem 0.5rem;
